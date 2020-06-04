@@ -1,0 +1,190 @@
+/*This is link of font style which is use in website*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+*{
+margin: 0px;  /*it is for remove default margin and padding*/
+padding: 0px;
+}
+
+html{
+	scroll-behavior: smooth; /*It is for direct goto the another section link home to contact*/
+}
+.logo{
+display: flex;
+width: 20%;
+justify-content: center;		 /*It is for vertical and  horizontal display */
+text-align: center;
+}
+.logo img{
+width: 30%;
+border:2px solid white;   /* It is for logo img border and border radius */
+border-radius:45%;
+}
+.navbar{
+display: flex;
+align-items: center;
+justify-content: center;
+position: sticky;
+cursor: pointer;
+top: 0px;   /* Its is for make a flex full navbar */
+}
+.nav-list{
+display:flex;
+width: 70%;      /* It take half of width  of screen*/
+align-items:center;
+/*background-color: blue;*/
+}
+.nav-list li{
+list-style: none;
+display: flex;    	/* It is for style the list section*/
+padding: 20px 25px;
+}
+.nav-list li a{
+text-decoration:none; /*It is for the anchor tag styling*/
+color:white;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 18px;
+}
+.nav-list li a:hover{
+color: gray;			/*hover the  navbar*/
+}
+.right-navbar{
+width: 30%;              /*IT is all for right navbar*/
+/*background-color: green;*/
+text-align: right;
+padding: 0px 23px;
+}
+#Search{
+padding: 5px;
+font-size: 15px;
+border:2px solid black;
+border-radius: 5px;
+}
+/*It is for background img for section and navbar*/
+.background{
+background-size: cover;
+background-blend-mode: darken;
+background:rgb(0,0,0,0.7) url('../img/img4.jpg');
+}
+.firstSection{
+height: 100vh;
+}
+.main-box{
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-family: sans-serif;
+margin: auto; /* margin auto is use to take the content in center from both side*/
+max-width: 50%;
+height: 60%; /*Section content takes center from top*/
+}
+.firstHslf{
+width: 80%;
+display: flex;
+justify-content: center;
+flex-direction: column; /*It is use to take the content in column */
+}
+.secondHalf{
+width: 30%;
+}
+.secondHalf img{
+width: 80%;
+padding: 0px 0px;
+border-radius: 80%;
+border:3px solid white;
+display: block;
+margin: auto;
+}
+/*Button styling*/
+.btn{
+padding: 7px 22px;
+background: none;
+border:2px solid white;
+border-radius: 10px;
+margin: 8px 5px;
+cursor: pointer;
+color: white;
+}
+.btn-sm{
+padding: 6px 10px;
+vertical-align: middle;
+}
+.btn-dark{
+color: black;
+border:2px solid white;
+background-color: #ABEBC6  ;
+}
+.large-font{
+font-size: 40px;
+font-family: 'PT Sans Caption', sans-serif;
+}
+.small-font{
+font-size: 18px;
+}
+.secRight{
+display: flex;
+justify-content:center;
+align-items: center;
+max-width: 80%;
+margin: auto;
+height: 300px;
+font-family: 'PT Sans Caption', sans-serif;
+}
+.left{
+flex-direction: row-reverse;
+}
+.paras{
+padding: 0px 65px;
+}
+.secPara1{
+padding-bottom:  15px;
+}
+.thumbnil img{
+width: 280px;
+padding-top: 0px;
+margin-top: 0px;
+border:2px solid black;
+border-radius: 15px;
+}
+.contact{
+background-color:#F4F6F6;
+height: 500px;
+}
+.text-center{
+text-align: center;
+padding: 30px;
+font-family: 'PT Sans Caption', sans-serif;
+}
+.form{
+/*max-width: 1000px;*/
+margin: auto;
+max-width: 60%;
+}
+.form-input{
+width: 90%;
+padding: 10px;
+font-size: 15px;
+margin: 15px;
+border:none;
+border-radius: 10px;
+}
+.text-footer{
+display: flex;
+align-items: center;
+padding: 20px;
+justify-content: center;
+color: white;
+}
+.burger{
+position: absolute;
+display: none;
+right: 5%;
+top: 15px;
+cursor: pointer;
+}
+.line{
+height: 5px;
+margin: 5px 4px;
+background-color: white;
+width: 33px;
+}
